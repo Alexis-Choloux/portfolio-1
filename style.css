@@ -1,0 +1,349 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+body h1 {
+    font-size: 60px;
+}
+
+/* Banner */
+#banner {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+}
+
+#logo {
+    font-family: 'Righteous', sans-serif;
+    width: 40%;
+    margin-left: 2%;
+}
+
+#logo h1 {
+    font-size: 40px;
+}
+
+#banner ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+#banner ul li {
+    margin-right: 10%;
+}
+
+#banner ul li a {
+    text-decoration: none;
+    font-family: 'Piazzolla', sans-serif;
+    color: black;
+    font-size: 25px;
+    color:  #818181;
+}
+
+#banner ul li a:hover {
+    border-bottom: solid black 1px;
+    color: black;
+}
+
+/* Accueil */
+#home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/accueil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#homeText {
+    display: flex;
+    flex-direction: column;
+}
+
+#homeText ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 45vh;
+    font-size: 600%;
+}
+
+#homeText ul li {
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+
+#pratique {
+    font-family: 'Courier Prime', sans-serif;
+    font-style: italic;
+}
+
+#pratique:hover {
+    color: 
+}
+
+#exploitable {
+    font-family: 'Monoton', sans-serif;
+}
+
+#admirable {
+    font-family: 'Sansita Swashed', sans-serif;
+}
+
+/* Portfolio */
+#portfolio {
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 1px;
+    text-align: center;
+    background-image:linear-gradient(white, #bebcbc);
+}
+
+#portfolio h1 {
+    margin-bottom: 15vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+#portfolio span {
+    color: rgb(197, 0, 0);
+}
+
+#portfolioLink {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#portfolioLink div {
+    text-align: center;
+    font-size: 120%;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#portfolio p {
+    color: black;
+}
+
+#more {
+    margin-top: 3vh;
+}
+
+#more a {
+    color: rgb(197, 0, 0);
+}
+
+/* Présentation */
+#presentation {
+    width: 100%;
+    padding-top: 12vh;
+    padding-bottom: 10vh;
+    text-align: center;
+    background-image:linear-gradient(#bebcbc, white);
+    border-block-end-width: 90%;
+}
+
+#presentation h1 {
+    margin-bottom: 10vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    padding-bottom: 5vh;
+}
+
+#presentation h1 span {
+    font-weight: bold;
+    color: rgb(39, 39, 195);
+}
+
+#presentation h2 {
+    font-family: 'Piazzolla', sans-serif;
+    font-size: 400%;
+    color: rgb(88, 88, 88);
+    margin-bottom: 5vh;
+}
+
+#description {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#skills {
+    width: 50%;
+}
+
+#skillsLogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skillsLogo div {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#skillsLogo .far {
+    color: rgb(14, 177, 14);
+}
+
+#about {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about img {
+width: 15%;
+border-radius: 50%;
+margin-bottom: 2vh;
+}
+
+#about p {
+    text-align: center;
+    font-size: 150%;
+    width: 60%;
+}
+
+/* Contact */
+#contact {
+    width: 100%;
+    padding-top: 90px;
+    text-align: center;
+    background-color: black;
+}
+
+#contact h1 {
+    margin-bottom: 10vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: white;
+}
+
+#contact h2 {
+    color: rgb(88, 88, 88);
+    font-family: 'Piazzolla', sans-serif;
+    font-size: 400%;
+    margin-bottom: 5vh;
+}
+#contact h1 span {
+    color: rgb(197, 0, 0);
+    font-weight: bold;
+}
+
+#contactPages {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#mail {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#mail a {
+    color: rgb(197, 0, 0);
+}
+
+#social {
+    width: 50%;
+}
+
+#socialLogos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+#insta {
+    color: #c13584;
+}
+
+footer {
+    width: 100%;
+    height: 30vh;
+    background-image: url(images/footer/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#footer {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer h1 {
+    font-family: 'Righteous', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Media Queries */
+@media screen and (max-width: 767px) {
+    #pratique, #exploitable, #admirable 
+     {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    #portfolioLink div {
+        width: 90%;
+        margin-bottom: 5vh;
+    }
+
+    #presentation h2 {
+        font-size: 20px;
+    }
+
+    #skills {
+        width: 100%;
+    }
+
+    #about {
+        width: 100%;
+        margin-top: 7vh;
+    }
+
+    #contact h2 {
+        font-size: 20px;
+    }
+
+    #mail {
+        width: 100%;
+    }
+
+    #social {
+        width: 100%;
+        margin-top: 7vh;
+    }
+}
+
+@media screen and (min-width: 768px){
+    body h1 {
+        font-size: 70px;
+    }
+}
+
